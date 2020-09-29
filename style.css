@@ -1,0 +1,137 @@
+h1
+{
+    color : brown;
+    margin-left: 30px;
+}
+ 
+
+
+.header{
+    background-color: darkgoldenrod;
+    display : flex;
+    justify-content: space-between;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+p,h3{
+    text-align: center;
+    color:blue
+}
+
+body{
+    background-color: #808080;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+a:link {
+    color : #000000;
+}
+
+
+a:visited{
+    color: #000000;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.picture-in-picture{
+    background-color: gold;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+h4
+{
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+}
+
+h2{
+    margin: 50px;
+    padding: 50px;
+    font-family: sans-serif;
+    background: linear-gradient(#E0EAFC,#cfdef3);
+    height: 100px;
+}
+
+.center,.content{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-500%, -50%);
+
+}
+
+
+#click{
+    display: none;
+
+}
+
+.click-me{
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: red;
+    border: 1px solid rgba(196, 14, 39, 0.596);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    line-height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.click-me:hover{
+    background: green;
+
+}
+
+.content{
+    width: 400px;
+    height: 350px;
+    
+}
+
